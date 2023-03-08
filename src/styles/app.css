@@ -71,6 +71,10 @@ align-items: center;
 .temp-evaluation,.last-updated,.weather-condition{
   font-size: 1.3rem;
 }
+.author{
+  font-size: 1.5rem;
+  text-align: center;
+}
 @media(max-width:425px){
   .search-btn{
     width: 35%;

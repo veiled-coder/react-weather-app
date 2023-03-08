@@ -4,7 +4,6 @@ import sunny from "../images/sunny.png";
 import axios from "axios";
 
 function App() {
- 
   let [usercity, setusercity] = useState(null);
   let [temp, setTemp] = useState(null);
   let [apiCityName, setApiCityName] = useState(null);
@@ -79,6 +78,17 @@ function App() {
           </div>
         </section>
       </div>
+      <p className="author">
+        {" "}
+        coded by veiled-coder and it's{" "}
+        <a
+          href="https://github.com/veiled-coder/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open sourced
+        </a>
+      </p>
     </div>
   );
 }
